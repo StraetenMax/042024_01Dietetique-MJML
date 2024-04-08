@@ -1,0 +1,112 @@
+<mjml>
+    <mj-head>
+        
+    </mj-head>
+    <mj-body>
+        <!-- Image Hero-->
+        <mj-section>
+            <mj-column>
+            <mj-image src="https://placehold.it/600x400" alt="" /> 
+            </mj-column>
+        </mj-section>
+        <!-- Hero titre et Texte-->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    Journées de la Diététique
+                </mj-text>
+                <mj-text>
+                    Dans le cadre de votre parcours de formation, Ecosup-Diététique vous accompagne en vous proposant de participer aux
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Annonce Date-->
+        <mj-section>
+            <mj-column>
+            <mj-text>
+                Journées de la Diététique
+            </mj-text>
+            <mj-text>
+                Vendredi 26 Avril 2024             
+            </mj-text>
+            <mj-text>
+                de 9h à 13h
+            </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Article-->
+        <mj-section>
+            <mj-column>
+                <mj-image src="https://placehold.it/232x232/999999" width="232px" alt="" />   
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    Vous y rencontrerez :
+                </mj-text>
+                <mj-text>
+                    - des Étudiants de 2e année
+                </mj-text>
+                <mj-text>
+                    - des Professionnels
+                </mj-text>
+                <mj-text>
+                    - des Professeurs
+                </mj-text>
+                <mj-text>
+                    Vous participerez à :
+                </mj-text>
+                <mj-text>
+                    - des Ateliers diététiques
+                </mj-text>
+                <mj-text>
+                    - des Simulations de consultations
+                </mj-text>
+                <mj-text>
+                    - une Conférence / Présentation d'une structure de soin
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Phrase-->
+        <mj-section>
+            <mj-column>
+                <mj-text>
+                    Alors n'hésitez pas et venez découvrir votre futur métier.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Button-->
+        <mj-section>
+            <mj-column>
+                <mj-button>
+                    inscrivez-vous
+                </mj-button>
+                <mj-text>
+                    inscription obligatoire avant le 21/04/2024
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Signature--><mj-section>
+            <mj-column>
+                <mj-image src="https://placehold.it/110x110/999999" width="110px" alt="" />
+            </mj-column>
+            <mj-column>
+                <mj-text>
+                    Jérôme Poulain
+                </mj-text>
+                <mj-text>
+                    Responsable pédagogique
+                </mj-text>
+                <mj-text>
+                    Ecosup Diététique
+                </mj-text>
+                <mj-text>
+                    Tourcoing
+                </mj-text>
+            </mj-column>
+        </mj-section>
+<!--footer-->
+<!--Réseau sociaux-->
+<!--Adresse-->
+<!--Réglements-->
+    </mj-body>
+</mjml>
