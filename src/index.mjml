@@ -4,8 +4,8 @@
         <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" />
         <mj-attributes>
             <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"/>
-            <mj-class name="H1" font-size="40px" font-weight="600" line-height="44px" color="#a83163" />
-            <mj-class name="H2" font-size="22px" font-weight="600" line-height="26px" color="#a83163"/>
+            <mj-class name="H1" font-size="40px" font-weight="300" line-height="44px" color="#a83163" />
+            <mj-class name="H2" font-size="20px" font-weight="600" line-height="24px" color="#a83163"/>
             <mj-class name="Text" font-size="16px" font-weight="300" line-height="20px" color="#4A5568"/>
             <mj-class name="footer" font-size="12px" font-weight="300" line-height="16px" color="#2D3748" />
             <mj-button background-color="#ec619f" color="#ffffff" font-size="16px" font-weight="500" line-height="20px" border="none"></mj-button>
@@ -14,6 +14,16 @@
         <mj-style>
             .hover:hover td, .hover:hover a{ 
                 background-color:#a83163 !important;
+            }
+           @media (max-width:480px) { 
+                .mpadding td{
+                    padding-left:10px !important;
+                    padding-right:10px !important;
+                }
+                .mesp td{
+                    padding-left:35px !important;
+                    padding-right:35px !important;      
+                }
             }
         </mj-style>
     </mj-head>
@@ -25,21 +35,21 @@
             </mj-column>
         </mj-section>
         <!-- Hero titre et Texte-->
-        <mj-section background-color="#FFFFFF" padding="0">
+        <mj-section background-color="#FFFFFF" padding="0" css-class="mpadding">
             <mj-column width="480px">
                 <mj-text padding="0" align="center" mj-class="H1">
-                    Journées de la Diététique
+                     <span style="font-weight:700;">Journées</span> de la <span style="font-weight:700;">Diététique</span>
                 </mj-text>
                 <mj-text padding="0" align="center" mj-class="Text">
-                    Dans le cadre de votre parcours de formation, Ecosup-Diététique vous accompagne en vous proposant de participer aux
+                    Dans le cadre de votre parcours de formation, <span style="font-weight:700;">Ecosup-Diététique</span> vous accompagne en vous proposant de participer aux
                 </mj-text>
             </mj-column>
         </mj-section>
         <!--Annonce Date-->
-        <mj-section background-color="#ffffff">
+        <mj-section background-color="#ffffff" css-class="mesp">
             <mj-column width="235px" background-color="#a83163" border-radius="10px">
             <mj-text padding="20px 20px 0 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
-                Journées de la Diététique
+               Journées de la Diététique
             </mj-text>
             <mj-text padding="0 20px 0 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
                 Vendredi 26 Avril 2024             
@@ -50,9 +60,9 @@
             </mj-column>
         </mj-section>
         <!--Article-->
-        <mj-section padding="0" background-color="#ffffff">
+        <mj-section padding="0 30px" background-color="#ffffff" css-class="mpadding">
             <mj-column width="50%" padding="8px">
-                <mj-image align="right" padding="0" src="src/img/circleDietetique.jpg" alt="" />   
+                <mj-image align="center" padding="0" src="src/img/circleDietetique.jpg" alt="" />   
             </mj-column>
             <mj-column width="50%" padding="8px">
                 <mj-text padding="0" mj-class="H2" >
@@ -67,7 +77,7 @@
                 <mj-text padding="0" mj-class="Text">
                     - des Professeurs
                 </mj-text>
-                <mj-text padding="0" mj-class="H2">
+                <mj-text padding="15px 0 0 0" mj-class="H2">
                     Vous participerez à :
                 </mj-text>
                 <mj-text padding="0" mj-class="Text">
@@ -82,7 +92,7 @@
             </mj-column>
         </mj-section>
         <!--Phrase-->
-        <mj-section padding="0" background-color="#ffffff"> 
+        <mj-section padding="0" background-color="#ffffff" css-class="mpadding"> 
             <mj-column>
                 <mj-text align="center" padding="0" mj-class="Text">
                     Alors n'hésitez pas et venez découvrir votre futur métier.
@@ -96,7 +106,7 @@
                     inscrivez-vous
                 </mj-button>
                 <mj-text align="center" mj-class="Text">
-                    inscription obligatoire avant le 21/04/2024
+                    inscription obligatoire avant le <span style="font-weight:700;">21/04/2024</span>
                 </mj-text>
             </mj-column>
         </mj-section>
