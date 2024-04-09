@@ -24,6 +24,9 @@
                     padding-left:35px !important;
                     padding-right:35px !important;      
                 }
+                .mspacer div{
+                    height:0px !important;
+                }
             }
         </mj-style>
     </mj-head>
@@ -61,10 +64,11 @@
         </mj-section>
         <!--Article-->
         <mj-section padding="0 30px" background-color="#ffffff" css-class="mpadding">
-            <mj-column width="50%" padding="8px">
+            <mj-column width="50%" padding="0px">
                 <mj-image align="center" padding="0" src="src/img/circleDietetique.jpg" alt="" />   
             </mj-column>
-            <mj-column width="50%" padding="8px">
+            <mj-column width="50%" padding="0px">
+            <mj-spacer height="30px" css-class="mspacer"/>
                 <mj-text padding="0" mj-class="H2" >
                     Vous y rencontrerez :
                 </mj-text>
@@ -77,7 +81,8 @@
                 <mj-text padding="0" mj-class="Text">
                     - des Professeurs
                 </mj-text>
-                <mj-text padding="15px 0 0 0" mj-class="H2">
+                <mj-spacer height="15px" />
+                <mj-text padding="0" mj-class="H2">
                     Vous participerez à :
                 </mj-text>
                 <mj-text padding="0" mj-class="Text">
