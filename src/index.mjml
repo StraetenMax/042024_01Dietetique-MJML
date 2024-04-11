@@ -34,7 +34,7 @@
         <!-- Image Hero-->
         <mj-section background-color="#FFFFFF" padding="0" >
             <mj-column>
-            <mj-image padding="0" src="src/img/JDiet01-042024.jpg" alt="Affiche sur les Journées de la Diététique - vendredi 26 avril de 9h à 13h" /> 
+            <mj-image padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/66175aca12fbe9e05adb31cf.jpg" href="https://ecosup-sante.fr/dietetique" alt="Affiche sur les Journées de la Diététique - vendredi 26 avril de 9h à 13h" /> 
             </mj-column>
         </mj-section>
         <!-- Hero titre et Texte-->
@@ -65,7 +65,7 @@
         <!--Article-->
         <mj-section padding="0 30px" background-color="#ffffff" css-class="mpadding">
             <mj-column width="50%" padding="0px">
-                <mj-image align="center" padding="0" src="src/img/circleDietetique.jpg" alt="Découverte de les formations et les métiers de la Diététique" />   
+                <mj-image align="center" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/66175ad712fbe9e05adb31d1.jpg" href="https://ecosup-sante.fr/dietetique" alt="Découverte de les formations et les métiers de la Diététique" />   
             </mj-column>
             <mj-column width="50%" padding="0px">
             <mj-spacer height="30px" css-class="mspacer"/>
@@ -107,7 +107,7 @@
         <!--Button-->
         <mj-section background-color="#ffffff">
             <mj-column>
-                <mj-button>
+                <mj-button href="https://forms.gle/pEc7CnC5uZDpDjbJ8" css-class="hover">
                     inscrivez-vous
                 </mj-button>
                 <mj-text align="center" mj-class="Text">
@@ -119,7 +119,7 @@
         <mj-section background-color="#ffffff">
             <mj-group>
             <mj-column padding="8px">
-                <mj-image align="right" padding="0" src="src/img/JPoulain.jpg" width="110px" alt="Jérome Poulain, responsable pédagogique d'Ecosup Diététique" />
+                <mj-image align="right" padding="0" src="https://img.mailinblue.com/3403292/images/content_library/original/66175add12fbe9e05adb31d2.jpg" width="110px" alt="Jérome Poulain, responsable pédagogique d'Ecosup Diététique" />
             </mj-column>
             <mj-column padding="8px">
                 <mj-text padding="0" mj-class="Text" >
@@ -150,7 +150,7 @@
                 <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d605a373b24d832a3970d.png"  href="https://www.instagram.com/ecosup.campus" alt="Instagram"></mj-social-element>
             </mj-social>
     <!--adresse-->
-            <mj-image padding-bottom="0px" width="120px" src="https://img.mailinblue.com/3403292/images/content_library/original/660d606e373b24d832a39719.png" alt="logo Ecosup Campus" />
+            <mj-image padding-bottom="0px" width="120px" src="https://img.mailinblue.com/3403292/images/content_library/original/660d606e373b24d832a39719.png" href="https://ecosup-campus.fr" alt="logo Ecosup Campus" />
             <mj-text padding="0" align="center" mj-class="footer">
                 17 place Charles et Albert Roussel
             </mj-text>
